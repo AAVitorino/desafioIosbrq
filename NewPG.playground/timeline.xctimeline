@@ -2,5 +2,27 @@
 <Timeline
    version = "3.0">
    <TimelineItems>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/andrevitorino/iosDev/DesafioItau/NewPG.playground#CharacterRangeLen=12&amp;CharacterRangeLoc=3237&amp;EndingColumnNumber=28&amp;EndingLineNumber=126&amp;StartingColumnNumber=16&amp;StartingLineNumber=126&amp;Timestamp=664669299.231467"
+         lockedSize = "{889, 50}"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/andrevitorino/iosDev/DesafioItau/NewPG.playground#CharacterRangeLen=8&amp;CharacterRangeLoc=2871&amp;EndingColumnNumber=15&amp;EndingLineNumber=111&amp;StartingColumnNumber=7&amp;StartingLineNumber=111&amp;Timestamp=664669299.233703"
+         lockedSize = "{492, 50}"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/andrevitorino/iosDev/DesafioItau/NewPG.playground#CharacterRangeLen=12&amp;CharacterRangeLoc=2311&amp;EndingColumnNumber=25&amp;EndingLineNumber=94&amp;StartingColumnNumber=13&amp;StartingLineNumber=94&amp;Timestamp=664669299.2339081"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/andrevitorino/iosDev/DesafioItau/NewPG.playground#CharacterRangeLen=9&amp;CharacterRangeLoc=2193&amp;EndingColumnNumber=22&amp;EndingLineNumber=89&amp;StartingColumnNumber=13&amp;StartingLineNumber=89&amp;Timestamp=664669299.234108"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
    </TimelineItems>
 </Timeline>

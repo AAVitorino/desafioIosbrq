@@ -14,23 +14,39 @@ class MessageViewController: UIViewController {
     
     @IBOutlet weak var viewBackground: UIView!
     @IBOutlet weak var HomeStackView: UIStackView!
-
-    
+    @IBOutlet weak var tvMessage: UITextView!
+    @IBOutlet weak var btnHome: UIButton!
+        
+    var message: String = ""
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
-        viewBackground.layer.borderColor = UIColor.white.cgColor
+        prepare(with: message)
+        //viewBackground.layer.borderColor = UIColor.white.cgColor
 
-        
-        // Arredonda os cantos das views
-        // self.viewBackground?.roundCorners(cornerRadiuns: 50.0, typeCorners:
-                                           // [.inferiorDireito,
-                                             //.superiorDireito,
-                                             //.inferiorDireito,
-                                             //.inferiorEsquerdo])
-        
+  
     }
 
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        navigationController?.setNavigationBarHidden(true, animated: animated)
+    }
 
+    func prepare(with message: String){
+        
+        tvMessage.text = message
+        
+    }
+    
+    
+    @IBAction func backTohome(_ sender: UIButton) {
+        let storyboard = UIStoryboard(name:"MainViewController", bundle: nil)
+        if let vc = storyboard.instantiateViewController(identifier: "MainViewController") as? MainViewController{
+            
+            self.navigationController?.pushViewController(vc, animated: true)
+      
+            
+        }
+    }
+    
 }
